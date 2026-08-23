@@ -220,7 +220,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
 </nav>
 
 <div class="container pb-5">
-    <?php include 'components/banner-slider.php'; ?>
     
     <!-- Notice Bar -->
     <div class="compact-notice-bar d-flex justify-content-between align-items-center flex-wrap gap-2">
