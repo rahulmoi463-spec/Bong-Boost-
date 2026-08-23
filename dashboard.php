@@ -389,5 +389,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
         }
     }
 </script>
+    <?php include 'components/bottom-nav.php'; ?>
 </body>
 </html>
