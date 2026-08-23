@@ -29,6 +29,10 @@
         font-weight: bold;
     }
 </style>
+<a href="whatsapp-gift.php" class="nav-item">
+    <div class="icon">🎁</div>
+    <span>Free Gift</span>
+</a>
 
 <div class="bottom-nav">
     <a href="dashboard.php">🏠 Home</a>
