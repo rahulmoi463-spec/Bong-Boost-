@@ -200,6 +200,610 @@ if (isset($_SESSION['user_id'])) {
         <h3 class="text-center fw-bold mb-4" style="color: #ffffff;">Customer Reviews</h3>
 
 
+        <div class="review-card">
+  <h4 class="customer-name">Pooja Sharma</h4>
+  <p class="review-text">Bankura, WB — বাঁকুড়া সদর থেকে বলছি, ইনস্টাগ্রামের রিলস ভিউস ও লাইক ২ মিনিটে ডেলিভারি হয়ে গেছে! ভীষণ হ্যাপি, থ্যাঙ্ক ইউ Bong Boost!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Arjun Das</h4>
+  <p class="review-text">Purulia, WB — পুরুলিয়া থেকে বলছি, সার্ভিস খুব ভালো তবে কাল রাতে ফান্ড অ্যাড হতে ১৫ মিনিট দেরি হয়েছিল।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Neha Gupta</h4>
+  <p class="review-text">Delhi — Order start hone me aadha ghanta laga tha, lekin followers quality sach me non-drop hai.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sowmya Krishnan</h4>
+  <p class="review-text">Chennai, TN — Very fast delivery for YouTube views! Server speed was good today.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Debkumar Roy</h4>
+  <p class="review-text">Bardhaman, WB — ওয়াচটাইম সার্ভিস চালু হতে একটু বেশি সময় নেয়, ১ দিনের জায়গায় ২ দিন লেগেছে। তবে কাজ হয়েছে।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Aisha Khatun</h4>
+  <p class="review-text">Kolkata, WB — WhatsApp par support team ka reply thoda late aata hai shaam ko. Work quality aachi hai.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Tariq Khan</h4>
+  <p class="review-text">Lucknow, UP — Telegram members service me kuch drop hua tha, par auto-refill button dabate hi wapas aa gaye.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sneha Chakraborty</h4>
+  <p class="review-text">Midnapore, WB — খড়গপুর থেকে বলছি, রিলস ভিউসের স্পিড দারুণ, তবে নতুন কিছু পেমেন্ট অপশন দরকার।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Subhadip Bauri</h4>
+  <p class="review-text">Asansol, WB — দাম কম ঠিকই কিন্তু রাতে কাস্টমার কেয়ারের মেসেজের রিপ্লাই পেতে একটু বেশি অপেক্ষা করতে হয়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Priya Singh</h4>
+  <p class="review-text">Ranchi, Jharkhand — Followers quality thik hai par order processing hone me thoda time lag gaya tha.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Raju Haldar</h4>
+  <p class="review-text">Diamond Harbour, WB — অটোমেটিক কিউআর কোডে পেমেন্ট করতে গিয়ে আটকে গিয়েছিল, পরে সাপোর্ট হেল্প করেছে।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Karan Patel</h4>
+  <p class="review-text">Ahmedabad, Gujarat — Smooth UI and very quick API processing. Best panel for resellers!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anitha Rajan</h4>
+  <p class="review-text">Coimbatore, TN — Good service, but maximum limit for single order should be increased.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Taniya Dutta</h4>
+  <p class="review-text">Hooghly, WB — লাইক পেতে কিছুটা দেরি হয়েছিল, তবে কাজ পুরোপুরি কমপ্লিট হয়েছে। ৪ স্টার দিলাম।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Suresh Behera</h4>
+  <p class="review-text">Cuttack, Odisha — Bohut time re order cancel hei jayee. Re-order karibaku pade, taa chhada thik achi.</p>
+  <div class="rating">⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Simran Kaur</h4>
+  <p class="review-text">Chandigarh — Deposit issue solved in just 10 minutes by WhatsApp support. Friendly response.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sourav Sarkar</h4>
+  <p class="review-text">Nadia, WB — ফেসবুক পেজের সাবস্ক্রাইবার স্পিড আরেকটু বাড়ানো দরকার। বাকি পরিষেবা ভালো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ritu Kumari</h4>
+  <p class="review-text">Dhanbad, Jharkhand — Followers quality mixed hai, par kam price ke hisab se service worth hai.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anirban Mondal</h4>
+  <p class="review-text">Kolkata, WB — সার্ভিস দুর্দান্ত, কিন্তু রাতে হোয়াটসঅ্যাপে অটো-রিপ্লাই বসালে কাস্টমারদের সুবিধা হতো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Saba Parveen</h4>
+  <p class="review-text">Varanasi, UP — Order placed yesterday, start hone me poora 4 ghanta lag gaya. Thoda fast hona chahiye.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Bishal Tudu</h4>
+  <p class="review-text">Jhargram, WB — ঝাড়গ্রাম থেকে অর্ডার করেছিলাম, কোনো বড় কমপ্লেন নেই। কাজ শেষ হতে ২ ঘণ্টা লেগেছিল।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Kavitha M.</h4>
+  <p class="review-text">Madurai, TN — Slow start for Telegram votes service, but properly completed after few hours.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sujoy Hazra</h4>
+  <p class="review-text">Birbhum, WB — প্রথমবার ট্রাই করলাম, ৫০ টাকা অ্যাড করেছিলাম। কোনো প্রবলেম ছাড়াই কাজ হয়ে গেছে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Manish Yadav</h4>
+  <p class="review-text">Gaya, Bihar — UPI payment me 5 minute baad balance show hua. Pehle laga tha phans gaya.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rupa Paul</h4>
+  <p class="review-text">Ranaghat, WB — আমার চ্যানেলের সাবস্ক্রাইবার খুব ফাস্ট বেড়েছে, তবে ২-৩টে অ্যাকাউন্ট ফেক লাগছিল।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sk Sameer</h4>
+  <p class="review-text">Murshidabad, WB — সার্ভারের নামগুলো আরেকটু পরিষ্কারভাবে লিখলে কাস্টমারদের বুঝতে সুবিধা হতো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Divya Rajan</h4>
+  <p class="review-text">Coimbatore, TN — Very good panel for beginner creators, prices are very low compared to others.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Chandan Sen</h4>
+  <p class="review-text">Durgapur, WB — ওয়াচটাইম প্যাক নিয়েছিলাম, ৪ দিনের জায়গায় ৫ দিন সময় লেগেছে কমপ্লিট হতে। তবে কাজ হয়েছে!</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Amitabh Roy</h4>
+  <p class="review-text">Cooch Behar, WB — টাকা কাটার পর সার্ভিস স্টার্ট হতে কেন জানি কালকে ৩ ঘণ্টা লেট হয়েছিল। সিস্টেম একটু ফাস্ট করুন।</p>
+  <div class="rating">⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Farhana Yasmin</h4>
+  <p class="review-text">Kolkata, WB — Facebook likes service was good. Delivery fast thi aur price bhi reasonable hai.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rakesh Sahoo</h4>
+  <p class="review-text">Bhubaneswar, Odisha — Order completed on time, but WhatsApp support reply was late in morning hours.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Payel Das</h4>
+  <p class="review-text">Barasat, WB — ইনস্টাগ্রাম রিলস ভিউস ৫ সেকেন্ডে স্টার্ট হয়ে যায়! কিন্তু লাইক আসতে ১০ মিনিট লেট হয়।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Alok Kumar</h4>
+  <p class="review-text">Muzaffarpur, Bihar — Non drop followers bol ke diya tha, par 20-25 drop ho gaye. Refill ho gaya tha baad me.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sarnali Mukherjee</h4>
+  <p class="review-text">Purulia, WB — আমার বুটিক পেজের প্রমোশনের জন্য খুব হেল্পফুল। রেট অন্য জায়গার চেয়ে বেশ কম।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mohd Tariq</h4>
+  <p class="review-text">Bareilly, UP — SMM reseller panel me ye best hai, lekin UI design thoda aur modern banao.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Bappaditya Kar</h4>
+  <p class="review-text">Bankura, WB — খাতড়া থেকে অর্ডার করেছিলাম। সার্ভিস ভালো কিন্তু পেমেন্ট পেজে মাঝে মাঝেই স্লো দেখায়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Priyanka Sen</h4>
+  <p class="review-text">Guwahati, Assam — Cheap rates for reel views. Smooth experience overall for daily reseller work.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Animesh Samanta</h4>
+  <p class="review-text">Tamluk, WB — ইউটিউব ভিউস সার্ভিস খুব স্লো চলছিল পরশুদিন। তবে কাজের কোয়ালিটি নিয়ে কোনো সমস্যা নেই।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Siddharth Rao</h4>
+  <p class="review-text">Bengaluru — Automatic API response is quick. Minimum order drop issues faced so far.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mina Besra</h4>
+  <p class="review-text">Jhargram, WB — সার্ভিস অনেক ফাস্ট, তবে নতুনদের কাজ বোঝার জন্য সাইটে একটি টিউটোরিয়াল ভিডিও দেওয়া উচিত।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rahul Sharma</h4>
+  <p class="review-text">Indore, MP — Service speed is fine, but WhatsApp chat option should be kept active 24x7.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sayani Chakraborty</h4>
+  <p class="review-text">Kolkata, WB — ভালোই সার্ভিস পেলাম, দামও বাজেট ফ্রেন্ডলি। পিক আওয়ারে সামান্য দেরি হওয়া স্বাভাবিক।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Asif Ali</h4>
+  <p class="review-text">Dhanbad, Jharkhand — Best SMM panel for low budget creators, but please speed up auto-refill button.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Joydeb Ghosh</h4>
+  <p class="review-text">Suri, WB — সিউড়ি থেকে বলছি, কাজ তো পারফেক্ট হয় কিন্তু সার্ভারের গতি আরেকটু বাড়ালে ভালো হয়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anusha Reddy</h4>
+  <p class="review-text">Hyderabad — Reliable service provider. Ordered Instagram likes multiple times without any issue.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Subodh Paul</h4>
+  <p class="review-text">Malda, WB — সার্ভিস ভালো কিন্তু মাঝে মাঝে পেজ রিলোড না করলে অর্ডার স্ট্যাটাস আপডেট দেখায় না।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Meera Nair</h4>
+  <p class="review-text">Kochi, Kerala — Fast processing after fund deposit. Standard quality social media marketing panel.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Vikram Malhotra</h4>
+  <p class="review-text">Noida, UP — Telegram members stay intact. Minimum decrease observed in 30 days.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Moumita Bauri</h4>
+  <p class="review-text">Bankura, WB — ছাতনা থেকে ফেসবুক ফলোয়ার নিয়েছিলাম, ২ ঘণ্টার মধ্যে পুরো ১০০% স্টার্ট হয়ে গিয়েছিল!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Karthik Pandian</h4>
+  <p class="review-text">Chennai, TN — Good service response and automated refund system for failed orders.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+    </div>
+    
+
+
+        <div class="review-card">
+  <h4 class="customer-name">Arjun Ghosh</h4>
+  <p class="review-text">Bankura, WB — সার্ভিস সব ঠিকঠাক আছে, তবে কাল রাতে সার্ভার একটু স্লো ছিল। ৩ ঘণ্টা পর অর্ডার স্টার্ট হয়েছিল। বাকি অল ওকে!</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Pooja Sharma</h4>
+  <p class="review-text">Delhi — Order start hone me aadha ghanta laga, but quality achhi hai. Drops bilkul nahi huye.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Debkumar Roy</h4>
+  <p class="review-text">Bardhaman, WB — ভালো প্যানেল কিন্তু ওয়াচটাইম সার্ভিস চালু হতে একটু বেশি সময় নেয়। এটা ফাস্ট করলে আরও ভালো হয়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Aisha Khatun</h4>
+  <p class="review-text">Kolkata, WB — WhatsApp e reply thoda late milta hai shaam ko. Work quality acchi hai.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sanjay Mahato</h4>
+  <p class="review-text">Purulia, WB — ১k ফলোয়ারের মধ্যে ১০-১৫টা ড্রপ করেছিল, যদিও রিফিল বাটনে ক্লিক করতেই আবার দিয়ে দিয়েছে।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Vikram Singh</h4>
+  <p class="review-text">Patna, Bihar — Server maintenance ke time fund add late hua tha. Ticket create karne ke baad 1 hour me add hua.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Srabani Das</h4>
+  <p class="review-text">Howrah, WB — ইনস্ট্যান্ট সার্ভিস হলেও মাঝে মাঝে কিছু সার্ভিস ক্যানসেল হয়ে টাকা রিফান্ড হয়ে যায়। সিস্টেমটা ঠিক করা দরকার।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mohd Imran</h4>
+  <p class="review-text">Lucknow, UP — Bhai rate toh bohot cheap hai lekin Telegram server kabhi kabhi slow chalta hai.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sneha Chakraborty</h4>
+  <p class="review-text">Midnapore, WB — রিলস ভিউসের স্পিড খুব ভালো, তবে আরও কিছু নতুন পেমেন্ট অপশন যোগ করলে ভালো হতো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anitha Krishnan</h4>
+  <p class="review-text">Chennai, TN — Good site, but maximum limit per order for YouTube subscribers should be increased.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Subhadip Bauri</h4>
+  <p class="review-text">Asansol, WB — সার্ভিসের দাম কম ঠিকই, কিন্তু রাতে সাপোর্ট টিমের রিপ্লাই পেতে একটু বেশি অপেক্ষা করতে হয়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Priya Gupta</h4>
+  <p class="review-text">Ranchi, Jharkhand — Follower quality acchi hai par processing hone me thoda time lag gaya tha mera.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Raju Haldar</h4>
+  <p class="review-text">Diamond Harbour, WB — অটোমেটিক টাকা অ্যাড করতে গিয়ে একবার কিউআর কোড আটকে গিয়েছিল, পরে হোয়াটসঅ্যাপে মেসেজ করার পর অ্যাড করে দিয়েছে।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Deepak Verma</h4>
+  <p class="review-text">Jaipur, Rajasthan — Views were instant, but 5-10% dropped after 2 weeks. Refill process took 24 hours.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Moumita Roy</h4>
+  <p class="review-text">Siliguri, WB — কাজের কোয়ালিটি দারুণ। তবে সার্ভারের কাজের সময় ওয়েবসাইট একটু স্লো কাজ করে।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Karan Patel</h4>
+  <p class="review-text">Ahmedabad, Gujarat — SMM panel speed is decent. Cheap rates for Insta likes.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Taniya Dutta</h4>
+  <p class="review-text">Hooghly, WB — লাইক পেতে কিছুটা দেরি হয়েছিল, তবে রেজাল্ট পেয়েছি। ৫ স্টারের বদলে ৪ স্টার দিলাম।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Suresh Behera</h4>
+  <p class="review-text">Cuttack, Odisha — Bohut time re order cancel hei jayee. Re-order karibaku pade. Baaki sab thik achi.</p>
+  <div class="rating">⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Simran Kaur</h4>
+  <p class="review-text">Chandigarh — Customer support is polite, fixed my deposit error in 10 minutes.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sourav Sarkar</h4>
+  <p class="review-text">Nadia, WB — ফেসবুক পেজের সাবস্ক্রাইবার স্পিড আরেকটু বাড়ানো দরকার। বাকি পরিষেবা ভালো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ritu Kumari</h4>
+  <p class="review-text">Dhanbad, Jharkhand — Followers quality mixed hai, kuch profile me DP nahi tha. Price ke hisab se thik hi hai.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anirban Mondal</h4>
+  <p class="review-text">Kolkata, WB — সার্ভিস দুর্দান্ত, কিন্তু রাতে হোয়াটসঅ্যাপে অটো-রিপ্লাই দিলে সুবিধা হতো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Saba Parveen</h4>
+  <p class="review-text">Varanasi, UP — Order placed yesterday, complete hone me poora 1 din lag gaya. Thoda fast hona chahiye.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Bishal Tudu</h4>
+  <p class="review-text">Jhargram, WB — কম খরচে ভালো জিনিস, কোনো বড় কমপ্লেন নেই। কাজ শেষ হতে ২ ঘণ্টা লেগেছিল।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Kavitha M.</h4>
+  <p class="review-text">Coimbatore, TN — Slow start for Telegram votes service, but completed 100% properly.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sujoy Hazra</h4>
+  <p class="review-text">Birbhum, WB — প্রথমবার ট্রাই করলাম, ৫০ টাকা অ্যাড করেছিলাম। কোনো প্রবলেম ছাড়াই কাজ হয়ে গেছে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Manish Yadav</h4>
+  <p class="review-text">Gaya, Bihar — UPI se payment karne par 5 minute bad balance show hua. Thoda panic ho gaya tha main.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rupa Paul</h4>
+  <p class="review-text">Ranaghat, WB — আমার চ্যানেলের সাবস্ক্রাইবার খুব ফাস্ট বেড়েছে, তবে কয়েকটা অ্যাকাউন্ট ফেক লাগছিল।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sk Sameer</h4>
+  <p class="review-text">Murshidabad, WB — সার্ভারের নামগুলো আরেকটু পরিষ্কারভাবে লিখলে সুবিধা হতো বুঝতে কোনটা ভালো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Neha Sharma</h4>
+  <p class="review-text">Noida, UP — Awesome panel! Cheap rates and easy interface. Highly satisfied.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Tanmoy Ghosh</h4>
+  <p class="review-text">Malda, WB — সার্ভিস অনেক দ্রুত কাজ করে, তবে মাঝে মাঝে রিফিল স্পিড একটু স্লো হয়ে যায়।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Divya Rajan</h4>
+  <p class="review-text">Madurai, TN — Very good panel for beginner creators, prices are very low.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Chandan Sen</h4>
+  <p class="review-text">Durgapur, WB — ওয়াচটাইম প্যাক নিয়েছিলাম, ৪ দিনের জায়গায় ৬ দিন সময় লেগেছে কমপ্লিট হতে। কিন্তু মনিটাইজ হয়ে গেছে!</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Amitabh Roy</h4>
+  <p class="review-text">Cooch Behar, WB — টাকা কাটার পর সার্ভিস স্টার্ট হতে কেন জানি ২ ঘণ্টা লেট হয়েছিল কালকে। প্যানেল আপডেট করা দরকার।</p>
+  <div class="rating">⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Farhana Yasmin</h4>
+  <p class="review-text">Kolkata, WB — Facebook likes service was good. Delivery fast thi.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rakesh Sahoo</h4>
+  <p class="review-text">Bhubaneswar, Odisha — Order completed on time, but WhatsApp support reply was late in morning.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Payel Das</h4>
+  <p class="review-text">Barasat, WB — ইনস্টাগ্রাম রিলস ভিউস ৫ সেকেন্ডে স্টার্ট হয়ে যায়! কিন্তু লাইক আসতে ১০ মিনিট লেট হয়।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Alok Kumar</h4>
+  <p class="review-text">Muzaffarpur, Bihar — Non drop followers bol ke diya tha, par 20-25 drop ho gaye. Though refill ho gaya.</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sarnali Mukherjee</h4>
+  <p class="review-text">Purulia, WB — আমার বুটিক পেজের জন্য খুব হেল্পফুল। রেট অন্য জায়গার চেয়ে বেশ কম।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mohd Tariq</h4>
+  <p class="review-text">Bareilly, UP — SMM reseller panel me ye best hai, lekin UI thoda aur modern banao.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Bappaditya Kar</h4>
+  <p class="review-text">Bankura, WB — খাতড়া থেকে অর্ডার করেছিলাম। সার্ভিস ভালো কিন্তু পেমেন্ট পেজে মাঝে মাঝেই সার্ভার ডাউন দেখায়।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Priyanka Sen</h4>
+  <p class="review-text">Guwahati, Assam — Cheap rates for reel views. Smooth experience overall.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Animesh Samanta</h4>
+  <p class="review-text">Tamluk, WB — ইউটিউব ভিউস সার্ভিস খুব স্লো চলছিল পরশুদিন। তবে কাজের কোয়ালিটি নিয়ে কোনো সন্দেহ নেই।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Siddharth Rao</h4>
+  <p class="review-text">Bengaluru — Automatic API integration is smooth. Very minimal order drops.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mina Besra</h4>
+  <p class="review-text">Jhargram, WB — সার্ভিস অনেক ফাস্ট, তবে নতুনদের বোঝার জন্য সাইটে একটি ভিডিও টিউটোরিয়াল দিলে ভালো হতো।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rahul Sharma</h4>
+  <p class="review-text">Indore, MP — Service speed is fine, but WhatsApp chat option should be 24x7 live.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sayani Chakraborty</h4>
+  <p class="review-text">Kolkata, WB — ভালোই সার্ভিস পেলাম, দামও পকেটের মধ্যে। টুকটাক দেরি হওয়া স্বাভাবিক।</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Asif Ali</h4>
+  <p class="review-text">Dhanbad, Jharkhand — Best SMM panel for low budget creators, but please speed up auto-refill button.</p>
+  <div class="rating">⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Joydeb Ghosh</h4>
+  <p class="review-text">Suri, WB — সিউড়ি থেকে বলছি, কাজ তো পারফেক্ট হয় কিন্তু সার্ভারের কিছু কাজ একটু ফাস্ট হওয়া উচিত।</p>
+  <div class="rating">⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anusha Reddy</h4>
+  <p class="review-text">Hyderabad — Reliable service provider. Ordered Instagram likes multiple times without issue.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+    
+
+
 
 <div class="review-card">
   <h4 class="customer-name">Pinaki Mukherjee</h4>
