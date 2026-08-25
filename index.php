@@ -267,13 +267,13 @@ if (isset($_SESSION['user_id'])) {
 
         <!-- Filter Dropdown -->
         <select class="filter-select" id="reviewFilter" onchange="filterReviews()">
-            <option value="all">All Ratings (10 Reviews)</option>
+            <option value="all">All Ratings (789 Reviews)</option>
             <option value="5">5 Star Only</option>
             <option value="4">4 Star Only</option>
             <option value="critical">3 & 2 Star (Critical Reviews)</option>
         </select>
 
-        <!-- Reviews List (To 762 Selected Mix Reviews) -->
+        <!-- Reviews List (To 10 Selected Mix Reviews) -->
         <div id="reviewList">
 
             <!-- Review 1 -->
