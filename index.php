@@ -259,7 +259,6 @@ if (isset($_SESSION['user_id'])) {
         <!-- Rating Summary Bar -->
         <div class="rating-summary text-center">
             <div class="big-rating">4.6 ★</div>
-            <div class="text-muted small">Based on 1,480+ authentic reviews</div>
             <div class="mt-2 text-warning small">
                 ★★★★★ (80%) | ★★★★☆ (15%) | ★★★☆☆ (5%)
             </div>
