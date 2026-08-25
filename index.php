@@ -997,6 +997,743 @@ if (isset($_SESSION['user_id'])) {
     <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">37</span>)</button>
 </div>
 
+
+            <!-- Review 351 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Srabani Das <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Kolkata, WB — অর্ডার কমপ্লিট হতে একটু বেশি সময় লেগেছে, তবে ফলোয়ারগুলো নন-ড্রপ।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">6</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ শ্রাবণী! পিক আওয়ারে সার্ভার লোডের জন্য একটু দেরি হতে পারে। আমরা স্পিড আরও বাড়ানোর কাজ করছি।
+    </div>
+</div>
+
+<!-- Review 352 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Karthik Raja <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Chennai, TN — Semma speed work! YouTube views instant-ah add aagiduchu. Super service!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">24</span>)</button>
+</div>
+
+<!-- Review 353 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Rahul Sharma <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Delhi, DL — Fund add hone me 10 minute laga. Service thodi fast honi chahiye.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hi Rahul, payment gateway update me kabhi-kabhi time lagta hai. Next time instant ho jayega, thanks for feedback!
+    </div>
+</div>
+
+<!-- Review 354 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Ananya Roy <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Siliguri, WB — উত্তরবঙ্গ থেকে সার্ভিস নিলাম, মোটামুটি ভালো কাজ কিন্তু রেট একটু কমালে ভালো হতো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">11</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ অনন্যা! আমরা সেরা কোয়ালিটির সার্ভিস সবচেয়ে কম দামে দেওয়ার চেষ্টা করি। আপনার মতামত মাথায় রাখলাম।
+    </div>
+</div>
+
+<!-- Review 355 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Divya Bharathi <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Coimbatore, TN — Follower speed konjam slow-ah irundhuchu, aana order last-la complete aaiduchu.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">5</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hi Divya, thanks for your review! We recommend using our 'High Speed' tagged services for instant processing.
+    </div>
+</div>
+
+<!-- Review 356 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Pritam Mondal <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Burdwan, WB — ফেসবুক পেজ ফলোয়ার নিয়েছিলাম, ২ ঘণ্টার মধ্যে কমপ্লিট! অলওয়েজ বেস্ট।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">31</span>)</button>
+</div>
+
+<!-- Review 357 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Farhan Ali <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Lucknow, UP — Kam sahi hua lekin WhatsApp support se 1 ghante baad reply aaya.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">7</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Farhan bhai, der se reply ke liye maaziqaat. Heavy tickets ki wajah se delay tha, hum support team badha rahe hain.
+    </div>
+</div>
+
+<!-- Review 358 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Pooja Patel <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Mumbai, MH — Good panel for Instagram likes. Sometimes status updates a bit late.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">14</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thank you Pooja! Server sync delay causes status lag sometimes, but your order delivers in real-time.
+    </div>
+</div>
+
+<!-- Review 359 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Sourav Ganguly <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Howrah, WB — ইউটিউব ওয়াচটাইম প্যাক ৩ দিনে কমপ্লিট, চ্যানেল সফলভাবে মনিটাইজ হয়ে গেছে!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">45</span>)</button>
+</div>
+
+<!-- Review 360 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Shabana Begum <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Hyderabad, TS — Service thik hai par kuch followers 2 din baad drop hue the.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">9</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shabana ji, aap refill button par click kar dein, humne 30-days free auto-refill active kar diya hai!
+    </div>
+</div>
+
+<!-- Review 361 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Senthil Kumar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Madurai, TN — Nalla quality service. Telegram members sariyana rate-la kedachudhu, start delay mattum dha problem.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">12</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Nandri Senthil! We are optimizing our Telegram server to reduce start time delay.
+    </div>
+</div>
+
+<!-- Review 362 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Tanushree Paul <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Asansol, WB — হোয়াটসঅ্যাপে সাপোর্ট টিম ১ মিনিটে উত্তর দেয়। কাজের কোয়ালিটি খুব ভালো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">29</span>)</button>
+</div>
+
+<!-- Review 363 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Debkumar Bauri <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Bankura, WB — ছাতনা থেকে বলছি, লাইকগুলো আস্তে আস্তে বাড়ছিল, সঙ্গে সঙ্গে এলে ভালো হতো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">6</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> দেবকুমার বাবু, রিয়েল লুক দেওয়ার জন্য লাইকগুলো ধীরে ধীরে ডেলিভারি করা হয় যাতে অ্যাকাউন্ট সেফ থাকে।
+    </div>
+</div>
+
+<!-- Review 364 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Vikram Singh <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Jaipur, RJ — Automatic QR payment system is fast, but UI could be more user friendly.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">16</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thanks Vikram! We are launching a fresh dashboard layout next month for better user experience.
+    </div>
+</div>
+
+<!-- Review 365 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Pooja Sharma <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Patna, BH — Best non-drop Instagram followers service! Super fast delivery.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">33</span>)</button>
+</div>
+
+<!-- Review 366 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Mohd Tariq <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Bhopal, MP — Raat ko order lagaya tha, subah 7 baje start hua. Service thik hai.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Tariq bhai, raat ko 12 se 6 maintenance window hoti hai. Uske baad sabhi order instant process hote hain.
+    </div>
+</div>
+
+<!-- Review 367 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Subhadip Mahato <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Purulia, WB — পুরুলিয়া থেকে বলছি, সার্ভিস ফাস্ট কিন্তু মাঝে মাঝে ওয়ালেট স্ক্যানার কাজ করে না।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">18</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> শুভদীপ ভাই, নেটওয়ার্ক ইস্যুতে কখনো কখনো QR লোড হতে দেরি হয়। সমস্যা হলে পেটিএম বা সরাসরি UPI অপশন ব্যবহার করতে পারো।
+    </div>
+</div>
+
+<!-- Review 368 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Kavitha Murugan <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Salem, TN — Instagram followers instant-ah vandhuduchu. Romba super panel!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">27</span>)</button>
+</div>
+
+<!-- Review 369 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Neha Sharma <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Indore, MP — Reel views aaye par likes thode kam mile. Mix package hota to behtar tha.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">8</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Neha ji, humare paas "Combo Package" bhi available hai jisme Views + Likes dono ek saath milte hain!
+    </div>
+</div>
+
+<!-- Review 370 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Riya Sengupta <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Durgapur, WB — অনলাইন শপের পেজ বুস্ট করার জন্য সবসময় এই প্যানেল ব্যবহার করি, খুব ভালো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">22</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> আপনাকে ধন্যবাদ রিয়া দেবী! আপনার অনলাইন বিজনেস আরও এগিয়ে যাক, এই শুভকামনা রইল।
+    </div>
+</div>
+
+<!-- Review 371 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Ayesha Siddiqua <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Kolkata, WB — Server thoda slow tha sham ko, order complete hone me 4 ghante lage.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">5</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Ayesha ji, sham ko server traffic high rehta hai. Humne server capacity double kar di hai ab delay nahi hoga.
+    </div>
+</div>
+
+<!-- Review 372 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Moumita Mukherjee <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Barasat, WB — অটো কিউআর পেমেন্ট অপশনটা সেরা! টাকা দিলেই সাথে সাথে ক্রেডিট হয়ে যায়।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">36</span>)</button>
+</div>
+
+<!-- Review 373 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Vijay Venkatesh <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Trichy, TN — Facebook page likes pack vangunean, fast-ah process aachu. Service clear.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">15</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thank you Vijay! Happy to hear that you liked our Facebook promotion service.
+    </div>
+</div>
+
+<!-- Review 374 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Sneha Karmakar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Malda, WB — ৫০ টাকা দিয়ে প্রথমে চেক করে দেখেছিলাম, কাজ ভালো কিন্তু সাবস্ক্রাইবার ডেলিভারি একটু স্লো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">7</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> স্নেহালতা, ইউটিউব অ্যালগরিদমের নিরাপত্তার স্বার্থেই সাবস্ক্রাইবারগুলো ধীরে ধীরে প্রদান করা হয় যাতে ড্রপ না হয়।
+    </div>
+</div>
+
+<!-- Review 375 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Vikram Kumar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Ranchi, JH — Fast order processing and cheap SMM services. Highly recommended!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">30</span>)</button>
+</div>
+
+<!-- Review 376 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Saravanan P <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Vellore, TN — Start time konjam late aachu, aana baaki ellam ok thaan.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Vanakkam Saravanan! Apologies for the initial delay. We are improving system speed for faster starts.
+    </div>
+</div>
+
+<!-- Review 377 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Zaid Akhtar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Kanpur, UP — Reselling ke liye behtareen platform hai. Rate kam hain par API doc better ho sakta hai.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">19</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shukriya Zaid! Humne API documentation update kar di hai, aap 'API section' check kar sakte hain.
+    </div>
+</div>
+
+<!-- Review 378 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Arup Mallick <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Nadia, WB — কৃষ্ণনগর থেকে বলছি, টেলিগ্রাম মেম্বার প্যাকের কোয়ালিটি খুব ভালো। ১ নম্বর!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">40</span>)</button>
+</div>
+
+<!-- Review 379 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Vikram Soren <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Jhargram, WB — কিছুদিন পর কিছু ফলোয়ার ড্রপ করেছিল, তবে রিফিল বাটন মারতেই ব্যাক করে গেছে।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">8</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ বিক্রম! আমাদের রিফিল বাটন সিস্টেম এইজন্যই রাখা যাতে আপনার যেকোনো ড্রপ সাথে সাথে রিকভার হয়ে যায়।
+    </div>
+</div>
+
+<!-- Review 380 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Deepika Ramesh <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Erode, TN — YouTube shorts views super fast execution. Satisfied customer!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">13</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thank you Deepika! Glad you liked our YouTube Shorts promotion service.
+    </div>
+</div>
+
+<!-- Review 401 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Arpita Das <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Kolkata, WB — সার্ভিস ভালো কিন্তু মাঝে মাঝে ইনস্টাগ্রাম লাইক ডেলিভারি হতে ২০ মিনিট দেরি হয়।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">5</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ অর্পিতা! ইনস্টাগ্রামের সাম্প্রতিক আপডেট এবং সার্ভার চাপের কারণে সামান্য বিলম্ব হতে পারে। আমরা স্পিড আরও বাড়াচ্ছি।
+    </div>
+</div>
+
+<!-- Review 402 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Venkatesh Iyer <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Chennai, TN — Super speed for Telegram members order. Absolutely genuine platform!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">21</span>)</button>
+</div>
+
+<!-- Review 403 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Amitabh Verma <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Patna, BH — Instagram followers ki quality kaafi acchi hai, bas price thoda aur kam hota to better hota.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">11</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shukriya Amitabh ji! Hum regular discount promo codes offer karte rehte hain, dashboard check karte rahein.
+    </div>
+</div>
+
+<!-- Review 404 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Keerthana S <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Coimbatore, TN — YouTube views added, but watch time start aaga late aachu.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hi Keerthana, YouTube updates metrics in batches. Watch time syncs automatically within a few hours.
+    </div>
+</div>
+
+<!-- Review 405 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Ayan Roy <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Siliguri, WB — ফেসবুক পেজ ফলোয়ার নিয়েছিলাম, অর্ডারের ৫ মিনিটের মধ্যে কাজ শুরু! এক্সেলেন্ট।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">33</span>)</button>
+</div>
+
+<!-- Review 406 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Sumaiya Khatun <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Malda, WB — হোয়াটসঅ্যাপে হেল্পডেস্ক খুব ভালো। পেমেন্ট সমস্যায় সাথে সাথে সমাধান পেয়েছি।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">16</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ সুমাইয়া! আমরা সর্বদা দ্রুত সমাধান প্রদানের চেষ্টা করি।
+    </div>
+</div>
+
+<!-- Review 407 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Danish Rizvi <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Lucknow, UP — Service achhi hai lekin wallet me auto pay kabhi-kabhi delay hota hai.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">7</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Danish bhai, UPI bank server issue ki wajah se kabhi 2-3 mins lag jate hain. Service smooth chal rahi hai.
+    </div>
+</div>
+
+<!-- Review 408 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Rohan Bauri <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Bankura, WB — বাঁকুড়া থেকে বলছি, ইউটিউব চ্যানেল মনিটাইজেশনের জন্য সেরা প্যানেল।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">42</span>)</button>
+</div>
+
+<!-- Review 409 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Priya Sharma <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Jaipur, RJ — Nice panel for boosting Instagram reels. Quick response team.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">19</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thank you Priya! We appreciate your feedback.
+    </div>
+</div>
+
+<!-- Review 410 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Senthil Nathan <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Madurai, TN — Order delivered fully, but minimum order quantity is a bit high.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">6</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hi Senthil, we have updated lower min-quantity limits on selected basic packages!
+    </div>
+</div>
+
+<!-- Review 411 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Kavita Ghosh <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Burdwan, WB — ইন্সট্যান্ট ভিউস সার্ভিসটি দুর্দান্ত! রিল্স দেওয়ার সাথে সাথেই রেসপন্স পাই।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">27</span>)</button>
+</div>
+
+<!-- Review 412 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Adil Hussain <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Bhopal, MP — Bohot kam daam me Instagram likes mil gaye. Reliable site.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">14</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shukriya Adil! Clean aur fast service hamari pehchan hai.
+    </div>
+</div>
+
+<!-- Review 413 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Sujata Mahato <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Purulia, WB — সার্ভিস ভালো তবে কিছু ফলোয়ার কমছিল, রিফিল অপশন ব্যবহার করার পর ঠিক হয়েছে।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">8</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> সুজাতা দেবী, আমাদের রিফিল সাপোর্ট ৩০ দিন সক্রিয় থাকে যা কোনো ড্রপ হলে তৎক্ষণাৎ পূরণ করে দেয়।
+    </div>
+</div>
+
+<!-- Review 414 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Naveen Kumar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Bangalore, KA — Cheapest SMM Panel with super fast API execution for resellers.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">38</span>)</button>
+</div>
+
+<!-- Review 415 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Sneha Mukherjee <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Howrah, WB — ফেসবুক ভিডিও ভিউসের জন্য সেরা সাইট, পেমেন্ট অপশনগুলোও সহজ।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">20</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ স্নেহাদেবী! আমাদের সার্ভিস ব্যবহার করার জন্য কৃতজ্ঞ।
+    </div>
+</div>
+
+<!-- Review 416 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Vijay Prakash <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Varanasi, UP — Speed thodi slow thi raat me, lekin subah tak kaam pura complete ho gaya.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">5</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Vijay ji, raat me server maintenance hoti hai. Din me instant processing milegi!
+    </div>
+</div>
+
+<!-- Review 417 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Thamarai Selvi <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Salem, TN — Instant order completion! Romba nalla panel service, thanks team.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">29</span>)</button>
+</div>
+
+<!-- Review 418 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Prashant Paul <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Asansol, WB — টেলিগ্রাম মেম্বার সার্ভিসের স্পিড খুব ভালো, দামও বেশ বাজেট ফ্রেন্ডলি।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">15</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ প্রশান্ত! টেলিগ্রাম সার্ভিসে আমরা নতুন অ্যালগরিদম আপডেট করেছি।
+    </div>
+</div>
+
+<!-- Review 419 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Deepika Pandey <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Ranchi, JH — Moderate speed overall. Support resolution is active though.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Thanks Deepika! We are actively upgrading server hardware for instant deliveries.
+    </div>
+</div>
+
+<!-- Review 420 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Debashis Bauri <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Bankura, WB — ছাতনা থেকে বলছি, এক কথায় অসাম সার্ভিস! ওয়াচটাইম খুব দ্রুত কমপ্লিট হলো।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">49</span>)</button>
+</div>
+
+<!-- Review 421 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Meherun Nissa <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Kolkata, WB — Bohot acha panel hai, Instagram profile views ke liye best service.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">17</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shukriya Meherun! Aapke sath kaam karke khushi hui.
+    </div>
+</div>
+
+<!-- Review 422 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Gokul Nath <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Trichy, TN — Payment scanning took time, but followers arrived properly.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">3</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Vanakkam Gokul! UPI payment verification sometimes takes 2-3 mins during peak hours.
+    </div>
+</div>
+
+<!-- Review 423 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Priyanka Sarkar <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Nadia, WB — ইউটিউব সাবস্ক্রাইবার সার্ভিসটা সত্যি নন-ড্রপ। খুব সন্তুষ্ট!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">31</span>)</button>
+</div>
+
+<!-- Review 424 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Imtiaz Ahmed <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Delhi, DL — Customer care behavior bohot accha hai. Order timing sahi thi.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">13</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Shukriya Imtiaz bhai! Aapke support ke liye shukriya.
+    </div>
+</div>
+
+<!-- Review 425 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Bikram Soren <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Jhargram, WB — সার্ভিস ভালো, তবে প্যানেল ড্যাশবোর্ডের ডিজাইন আরও সিম্পল করলে ভালো হয়।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">6</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ বিক্রম! আমরা নতুন ইউজার ইন্টারফেস (UI) তৈরির কাজ চালাচ্ছি, খুব শীঘ্রই নতুন ড্যাশবোর্ড আপডেট করা হবে।
+    </div>
+</div>
+
+<!-- Review 426 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Shalini Menon <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Kochi, KL — Best website for social media promotion. Smooth payment gateway!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">26</span>)</button>
+</div>
+
+<!-- Review 427 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Suman Mondal <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Hooghly, WB — লাইক বাড়ানোর জন্য কম খরচে এটা চমৎকার একটা প্ল্যাটফর্ম।</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">18</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ সুমন! আমাদের সার্ভিস বন্ধুদের সাথেও শেয়ার করতে পারো।
+    </div>
+</div>
+
+<!-- Review 428 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Anushree Rao <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Mumbai, MH — Instagram views delivery was fast, but initial speed was slow.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">5</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hi Anushree, order initiation takes 1-3 minutes for server handshaking. Thanks for feedback!
+    </div>
+</div>
+
+<!-- Review 429 -->
+<div class="review-card" data-rating="5">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Tariq Jameel <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">5 ★</span>
+    </div>
+    <div class="review-text">Hyderabad, TS — Umda aur sasti SMM service. Order foran shuru ho jata hai.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">34</span>)</button>
+</div>
+
+<!-- Review 430 -->
+<div class="review-card" data-rating="4">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Soumi Koley <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">4 ★</span>
+    </div>
+    <div class="review-text">Chandannagar, WB — ফেসবুক মনিটাইজেশন সার্ভিসটা খুব কাজের। ২ দিনেই ভিউস কমপ্লিট!</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">22</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> ধন্যবাদ সৌমি! পেজের সার্বিক উন্নতির জন্য আমাদের শুভেচ্ছা রইল।
+    </div>
+</div>
+
+<!-- Review 431 -->
+<div class="review-card" data-rating="3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="customer-name">Rajesh Solanki <span class="verified-badge">✓ Verified Order</span></span>
+        <span class="rating-stars">3 ★</span>
+    </div>
+    <div class="review-text">Ahmedabad, GJ — Order completed, but response on ticket query was delayed.</div>
+    <button class="helpful-btn" onclick="addLike(this)">👍 Helpful (<span class="like-count">4</span>)</button>
+    <div class="admin-reply">
+        <strong>Admin Reply:</strong> Hello Rajesh, apologies for ticket delay. For faster responses, try our WhatsApp live support!
+    </div>
+</div>
+
 <!-- Review 286 -->
 <div class="review-card" data-rating="3">
     <div class="d-flex justify-content-between align-items-center">
