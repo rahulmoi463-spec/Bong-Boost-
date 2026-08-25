@@ -199,6 +199,370 @@ if (isset($_SESSION['user_id'])) {
     <div class="reviews-container">
         <h3 class="text-center fw-bold mb-4" style="color: #ffffff;">Customer Reviews</h3>
 
+
+
+<div class="review-card">
+  <h4 class="customer-name">Pinaki Mukherjee</h4>
+  <p class="review-text">Bankura, WB — বাঁকুড়া সদর থেকে বলছি, রিলস ভিউস এত ফাস্ট অ্যাড হবে ভাবতেই পারিনি!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sameer Verma</h4>
+  <p class="review-text">Delhi — Bhai Insta followers service ekdum instant hai, 2 min me start ho gaya.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Arun Kumar</h4>
+  <p class="review-text">Chennai, TN — Very reliable SMM panel! Telegram members service was fast and non-drop.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Soumya Ranjan</h4>
+  <p class="review-text">Cuttack, Odisha — Bhalaa service, automatic order complete heiparla. Bohut dhanyabad!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Tanmoy Ghosh</h4>
+  <p class="review-text">Bardhaman, WB — মেমারি থেকে বলছি, ফেসবুক পেজ লাইকের জন্য ১ নম্বর প্যানেল।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Vikram Singh</h4>
+  <p class="review-text">Patna, Bihar — UPI QR code se payment instantly add ho jata hai, zero technical issue.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anitha Rajan</h4>
+  <p class="review-text">Coimbatore, TN — Super speed delivery for YouTube views. Very smooth experience.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Pratiksha Sen</h4>
+  <p class="review-text">Kolkata, WB — Salt Lake area, YouTube Watch Time package khub bhalo bhabe complete holo.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rohan Sharma</h4>
+  <p class="review-text">Lucknow, UP — SMM reseller ke liye ye panel sabse best rates deta hai.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Dibyendu Das</h4>
+  <p class="review-text">Purulia, WB — পুরুলিয়া আরসা থেকে বলছি, সাবস্ক্রাইবার রেট সবচেয়ে কম এই ওয়েবসাইটে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Manoj Mohanty</h4>
+  <p class="review-text">Bhubaneswar, Odisha — Khub bhala panel. Instant support ebong fast execution.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Siddharth Menon</h4>
+  <p class="review-text">Bengaluru — Clean dashboard UI and very automated order tracking system.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Amitabh Hazra</h4>
+  <p class="review-text">Midnapore, WB — খড়গপুর থেকে বলছি, অটো-রিফিল ফিচারটা দারুণ কাজ করে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Manish Yadav</h4>
+  <p class="review-text">Ranchi, Jharkhand — Reel viral karne ke liye best service. Views rate 1 no. hai.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Karthik Pandian</h4>
+  <p class="review-text">Madurai, TN — Romba nalla service! Followers count drop aagala, full trustable.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Joyanta Biswas</h4>
+  <p class="review-text">Ranaghat, WB — রানাঘাট থেকে বলছি, হোয়াটসঅ্যাপ সাপোর্ট টিম খুব তাড়াতাড়ি রিপ্লাই দেয়।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Suraj Gupta</h4>
+  <p class="review-text">Guwahati, Assam — Order place karte hi 5 minute me complete ho gaya. Awesome!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">David L.</h4>
+  <p class="review-text">Mumbai — Recommended by a creator friend. Truly 100% genuine followers provided.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Biswajit Sahoo</h4>
+  <p class="review-text">Bhadrak, Odisha — Aapekhyaa tharu bohut fast service milila. Dhanyabad team!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sk Imran</h4>
+  <p class="review-text">Diamond Harbour, WB — ডায়মন্ড হারবার থেকে পেজ প্রমোশন করিয়েছিলাম, ১ দিনেই ১০k কমপ্লিট!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Pankaj Mishra</h4>
+  <p class="review-text">Varanasi, UP — Pehle 50 rupaye add karke try kiya tha, kaam dekh kar dil khush ho gaya.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Suresh Kumar</h4>
+  <p class="review-text">Salem, TN — Very fast customer service response via WhatsApp support.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Subhadip Samanta</h4>
+  <p class="review-text">Tamluk, WB — তমলুক থেকে রেগুলার রিসেল করি, কোনো কাস্টমারের থেকে কমপ্লেন আসেনি।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Deepak Agarwal</h4>
+  <p class="review-text">Jaipur, Rajasthan — Genuine Indian target followers quality is really impressive.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Satyajit Behera</h4>
+  <p class="review-text">Puri, Odisha — Odisha re ettiki sasta ebong fast panel au nahi.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Aritra Dutta</h4>
+  <p class="review-text">Howrah, WB — হাওড়া ময়দান থেকে বলছি, সার্ভিস কোয়ালিটি আর রেট একদম পারফেক্ট।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rajesh Sharma</h4>
+  <p class="review-text">Indore, MP — SMM panel market me sabse cheap and fast server response.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Vijay Natarajan</h4>
+  <p class="review-text">Chennai, TN — Best price for Instagram likes and views. Excellent site speed.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ratul Bauri</h4>
+  <p class="review-text">Asansol, WB — আসানসোল থেকে ১k সাবস্ক্রাইবার নিয়েছিলাম, মনিটাইজেশন অন হয়ে গেছে!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ashok Kumar</h4>
+  <p class="review-text">Dehradun, UK — Best experience! Auto refill system works smoothly without any issue.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+
+        <div class="review-card">
+  <h4 class="customer-name">Pooja Sharma</h4>
+  <p class="review-text">Bankura, WB — বাঁকুড়া থেকে রিলস বানাই, ফলোয়ার বাড়ানোর জন্য সেরা প্যানেল। খুব থ্যাঙ্ক ইউ!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Neha Gupta</h4>
+  <p class="review-text">Delhi — Instagram likes service is super fast! My boutique page post engagement boosted naturally.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Tariq Khan</h4>
+  <p class="review-text">Lucknow, UP — Bohat umdah service hai, Telegram members bilkul instant join ho gaye.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sowmya Krishnan</h4>
+  <p class="review-text">Chennai, TN — Semma service! YouTube subscribers count drop aagala, very genuine site.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sneha Mondal</h4>
+  <p class="review-text">Bardhaman, WB — বর্ধমান থেকে বিউটি ব্লগিং করি, ভিউস সার্ভিস নিয়ে খুব ভালো রেজাল্ট পেয়েছি।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ayesha Siddiqua</h4>
+  <p class="review-text">Hyderabad — Fast customer support response and hassle-free UPI add fund system.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anjali Roy</h4>
+  <p class="review-text">Kolkata, WB — Salt Lake se hu. Facebook page monetization Watch Time package properly complete ho gaya!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mohd Bilal</h4>
+  <p class="review-text">Patna, Bihar — Bohat acchi site hai bhai, rate pure market me sabse kam hai.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Anusha Reddy</h4>
+  <p class="review-text">Bengaluru — Very clean UI and transparent order status tracking system. Loved it!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ritu Bauri</h4>
+  <p class="review-text">Purulia, WB — পুরুলিয়া থেকে কুকিং চ্যানেল চালাই, ১k সাবস্ক্রাইবার খুব ফাস্ট কমপ্লিট করে দিয়েছে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Divya Swaminathan</h4>
+  <p class="review-text">Coimbatore, TN — Very fast delivery for Instagram reels views. Highly recommended!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sayantani Das</h4>
+  <p class="review-text">Howrah, WB — হাওড়া ময়দান থেকে বলছি, সাপোর্ট টিমের কথা বলার ধরণ খুব সুন্দর ও হেল্পফুল।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Priyanka Kumari</h4>
+  <p class="review-text">Ranchi, Jharkhand — Daily orders lagati hu client ke liye, auto-refill hamesha work karta hai.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Shagufta Yasmin</h4>
+  <p class="review-text">Kolkata, WB — Park Circus se hoon, SMM panel ki speed aur security dono 1 number hai.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Shalini Mohanty</h4>
+  <p class="review-text">Bhubaneswar, Odisha — Mo channel re views instantly badhigala. Bohut bhala lagila service!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Moumita Ghosh</h4>
+  <p class="review-text">Siliguri, WB — উত্তরবঙ্গ থেকে অনলাইন শপ চালাই, পেজ ফলোয়ার নিয়ে পেজের ট্রাস্ট অনেক বেড়েছে।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Kavitha Raj</h4>
+  <p class="review-text">Madurai, TN — Nalla quality followers. Instant processing time after placing order.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Swati Pandey</h4>
+  <p class="review-text">Varanasi, UP — Pehle dar lag raha tha, par order instant start ho gaya. Very reliable!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Payel Dutta</h4>
+  <p class="review-text">Medinipur, WB — মেদিনীপুর সদর থেকে বলছি, এত কম টাকায় রিলস ভিউস ভাবাই যায় না!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Saba Parveen</h4>
+  <p class="review-text">Dhanbad, Jharkhand — Bohat zabardast panel hai, fund auto add ho jata hai bina kisi issue ke.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rupa Chakraborty</h4>
+  <p class="review-text">Asansol, WB — আসানসোল থেকে বুটিকের ফেসবুক লাইভ করি, লাইক ভিউস সার্ভিস খুব ভালো পেয়েছি।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Rashmi Verma</h4>
+  <p class="review-text">Jaipur, Rajasthan — Best experience for Instagram page promotion. Guaranteed quality!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Monika Sen</h4>
+  <p class="review-text">Malda, WB — মালদা থেকে পেজের জন্য ফলোয়ার নিয়েছিলাম, একটাও ডিক্রিজ হয়নি।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Meera Nair</h4>
+  <p class="review-text">Kochi, Kerala — Very smooth transaction and automated service response. Loved it.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Bhavna Joshi</h4>
+  <p class="review-text">Ahmedabad, Gujarat — Affordable prices and instant start for all social media services.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Taniya Paul</h4>
+  <p class="review-text">Nadia, WB — কৃষ্ণনগর থেকে ডান্স রিলস পোস্ট করি, ভিউস স্পিড দেখে জাস্ট অবাক হয়ে গেছি!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Sonali Sahoo</h4>
+  <p class="review-text">Cuttack, Odisha — Bohut fast service milila, mo Insta account growth bohut bhala helaa.</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Ishita Chatterjee</h4>
+  <p class="review-text">Hooghly, WB — শ্রীরামপুর থেকে বলছি, নিজের প্যানেল বানিয়ে নেওয়ার চেয়ে এখান থেকে রিসেল করা অনেক লাভজনক!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Kiran Mazumdar</h4>
+  <p class="review-text">Guwahati, Assam — Order placed and start within 2 minutes. Awesome panel!</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="review-card">
+  <h4 class="customer-name">Mina Hembram</h4>
+  <p class="review-text">Jhargram, WB — ঝাড়গ্রাম থেকে ইউটিউব চ্যানেলের জন্য কাজ করিয়েছি, পুরো ১০০% জেনুইন।</p>
+  <div class="rating">⭐⭐⭐⭐⭐</div>
+    </div>
+                                                                                                              
+
         <div class="review-card">
   <h4 class="customer-name">Rahul Moi</h4>
   <p class="review-text">Bankura, WB — এত সস্তায় এবং দ্রুত ইনস্টাগ্রাম ফলোয়ার বাড়বে ভাবতেই পারিনি! সাপোর্ট টিম খুব হেল্পফুল।</p>
