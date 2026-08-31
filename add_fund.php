@@ -24,9 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit_payment'])) {
     if ($amount < 20 || $amount > 10000) {
         $msg = "Amount must be between ₹20 and ₹10,000";
     } 
-    // 2. Strict Validation: Must be 10 to 22 alphanumeric characters (No spaces or garbage text)
+    // 2. Strict Validation: Must be 10 to 35 alphanumeric characters (No spaces or garbage text)
     elseif (!preg_match('/^[a-zA-Z0-9]{10,22}$/', $txn_input)) {
-        $msg = "Please enter a valid 10-22 digit UTR or Transaction ID (No spaces/symbols allowed).";
+        $msg = "Please enter a valid 10-35 digit UTR or Transaction ID (No spaces/symbols allowed).";
     } 
     else {
         // 3. Duplicate UTR Check in Database using PostgreSQL
