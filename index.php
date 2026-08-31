@@ -18,6 +18,53 @@ if (isset($_SESSION['user_id'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
+            @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+    .bg-3d-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .floating-logo {
+        position: absolute;
+        transform-style: preserve-3d;
+        animation: float3D 7s infinite ease-in-out alternate;
+        opacity: 0.25;
+        filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.7));
+    }
+
+    .logo-fb { top: 12%; left: 5%; font-size: 3.5rem; color: #1877F2; text-shadow: 0 0 20px #1877F2; animation-duration: 6s; }
+    .logo-insta { top: 35%; right: 6%; font-size: 4rem; color: #E4405F; text-shadow: 0 0 20px #E4405F; animation-duration: 8s; }
+    .logo-yt { top: 65%; left: 8%; font-size: 4.2rem; color: #FF0000; text-shadow: 0 0 22px #FF0000; animation-duration: 7.5s; }
+    .logo-wa { top: 80%; right: 12%; font-size: 3.8rem; color: #25D366; text-shadow: 0 0 20px #25D366; animation-duration: 9s; }
+    .logo-tg { top: 48%; left: 45%; font-size: 3.2rem; color: #0088cc; text-shadow: 0 0 18px #0088cc; animation-duration: 6.5s; }
+
+    @keyframes float3D {
+        0% { transform: translateY(0px) rotateX(0deg) rotateY(0deg) scale(1); }
+        50% { transform: translateY(-30px) rotateX(25deg) rotateY(30deg) scale(1.15); }
+        100% { transform: translateY(20px) rotateX(-20deg) rotateY(-25deg) scale(0.9); }
+    }
+
+    /* Video Box Design */
+    .video-box-card {
+        background: rgba(20, 20, 35, 0.85);
+        border: 2px solid #00f2fe;
+        border-radius: 16px;
+        padding: 15px;
+        box-shadow: 0 0 25px rgba(0, 242, 254, 0.25);
+        backdrop-filter: blur(10px);
+        max-width: 750px;
+        margin: 20px auto 0 auto;
+    }
+    .video-title { color: #fff; font-size: 1.1rem; margin-bottom: 12px; font-weight: 600; }
+    .video-container iframe { border-radius: 10px; }
+        
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background: #0b0f19;
@@ -212,7 +259,15 @@ if (isset($_SESSION['user_id'])) {
     </style>
 </head>
 <body>
-
+    <!-- Floating 3D Social Media Logos -->
+<div class="bg-3d-wrapper">
+    <div class="floating-logo logo-fb"><i class="fab fa-facebook-f"></i></div>
+    <div class="floating-logo logo-insta"><i class="fab fa-instagram"></i></div>
+    <div class="floating-logo logo-yt"><i class="fab fa-youtube"></i></div>
+    <div class="floating-logo logo-wa"><i class="fab fa-whatsapp"></i></div>
+    <div class="floating-logo logo-tg"><i class="fab fa-telegram-plane"></i></div>
+</div>
+    
     <!-- Hero Section -->
     <div class="hero-section">
         <div class="brand-name">Bong Boost</div>
@@ -221,6 +276,16 @@ if (isset($_SESSION['user_id'])) {
         <div class="hero-subtitle">Indiawide!</div>
 
         <a href="login.php" class="btn-start">Start Now</a>
+        <!-- Tutorial Video Box -->
+<div class="container text-center my-4" style="position: relative; z-index: 2;">
+    <div class="video-box-card">
+        <h4 class="video-title">🎥 প্যানেল কিভাবে ব্যবহার করবেন দেখুন (Full Tutorial)</h4>
+        <div class="ratio ratio-16x9 video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" title="Bong Boost Tutorial" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+        
     </div>
 
     <!-- Comparison Section -->
