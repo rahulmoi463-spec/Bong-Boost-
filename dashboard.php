@@ -585,7 +585,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
                 <h5 class="modal-title fw-bold text-white"><i class="fa-solid fa-bullhorn text-warning me-2"></i>Rules & Guidelines</h5>
                 <button type="button" class="btn-close btn-close-white opacity-75" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body p-4" style="font-size: 15px; line-height: 1.7; color: #e2e8f0;">
+            <div class="modal-body p-4" style="font-size: 15px; line-height: 1.7; color: #e2e8f0; max-height: 55vh; overflow-y: auto;">
+                
                 <?php echo !empty($notice['content']) ? nl2br(htmlspecialchars($notice['content'])) : '<i>No notice available right now. Welcome to Bong Boost SMM Panel!</i>'; ?>
             </div>
             <div class="modal-footer border-top border-secondary border-opacity-25 p-3 d-flex justify-content-between">
