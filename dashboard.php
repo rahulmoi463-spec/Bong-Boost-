@@ -431,7 +431,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
     </div>
     <button type="button" class="btn-close btn-close-white opacity-75" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body d-flex flex-column justify-content-between p-3">
+  <div class="offcanvas-body d-flex flex-column justify-content-between p-3" style="padding-bottom: 75px !important;">
     <div>
         <a href="dashboard.php" class="drawer-link active">
             <i class="fa-solid fa-cart-plus text-info"></i> New Order
