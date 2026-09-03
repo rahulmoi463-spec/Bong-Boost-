@@ -51,9 +51,11 @@ if (is_array($api_services) && !empty($api_services) && !isset($api_services['er
     foreach ($api_services as $srv) {
         $cat = trim($srv['category'] ?? 'Other Services');
         
-        $raw_desc = $srv['desc'] ?? '';
-        $clean_desc = preg_replace('/https?:\/\/(www\.)?(youtube\.com|youtu\.be)\/[^\s]+/i', '', $raw_desc);
-        $clean_desc = preg_replace('/fampage\.in|fampage/i', 'Bong Boost', $clean_desc);
+        $clean_desc = preg_replace('/https?:\/\/[^\s]+/', '', $raw_desc);
+$clean_desc = preg_replace('/www\.[^\s]+/', '', $clean_desc);
+$clean_desc = preg_replace('/[a-zA-Z0-9-]+\.(com|in|net|org|co|site|xyz|store)[^\s]*/i', '', $clean_desc);
+$clean_desc = preg_replace('/fampage/i', 'Bong Boost', $clean_desc);
+        
 
         // Calculate 30% Profit
         $original_rate = (float)($srv['rate'] ?? 0);
@@ -712,7 +714,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
 
             let description = opt.dataset.desc || '';
             if (description && description.trim() !== '') {
-                descText.textContent = description.trim();
+                descText.innerHTML = description.trim().replace(/\n/g, '<br>');
+                
                 descContainer.classList.remove('d-none');
             } else {
                 descContainer.classList.add('d-none');
