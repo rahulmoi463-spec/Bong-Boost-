@@ -738,55 +738,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
     }
 </script>
     <?php include 'components/bottom-nav.php'; ?>
-<!-- Bong Boost Background Music Player Start -->
-<audio id="bgMusic" loop preload="none">
-    <source src="https://stream.zeno.fm/f3wvbbqmdg8uv" type="audio/mpeg">
-</audio>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var audio = document.getElementById("bgMusic");
-
-        // ৩-লাইন মেনু বা সাইডবারে বাটন তৈরি করা
-        var menuContainer = document.querySelector(".sidebar-menu") || document.querySelector(".nav") || document.body;
-        
-        var musicBtn = document.createElement("button");
-        musicBtn.id = "musicToggleBtn";
-        musicBtn.innerHTML = "🎵 Music: OFF";
-        musicBtn.style.cssText = "margin: 10px; padding: 8px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; z-index: 9999;";
-        
-        menuContainer.prepend(musicBtn);
-
-        // কাস্টমার প্রথমবার ওয়েবসাইটে ক্লিক করলেই অটোমেটিক প্লে করার চেষ্টা করবে
-        function enableAutoplay() {
-            if (audio.paused) {
-                audio.play().then(function() {
-                    musicBtn.innerHTML = "🎵 Music: ON";
-                    musicBtn.style.backgroundColor = "#dc3545";
-                }).catch(function(error) {
-                    console.log("Autoplay click required");
-                });
-            }
-            document.removeEventListener("click", enableAutoplay);
-        }
-        document.addEventListener("click", enableAutoplay, { once: true });
-
-        // অন/অফ বাটন ক্লিক হ্যান্ডলার
-        musicBtn.addEventListener("click", function (e) {
-            e.stopPropagation(); // স্ক্রিন ক্লিকে বাধা যাতে না পড়ে
-            if (audio.paused) {
-                audio.play();
-                musicBtn.innerHTML = "🎵 Music: ON";
-                musicBtn.style.backgroundColor = "#dc3545";
-            } else {
-                audio.pause();
-                musicBtn.innerHTML = "🎵 Music: OFF";
-                musicBtn.style.backgroundColor = "#28a745";
-            }
-        });
-    });
-</script>
-<!-- Bong Boost Background Music Player End -->
     
 </body>
 </html>
