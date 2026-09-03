@@ -51,10 +51,21 @@ if (is_array($api_services) && !empty($api_services) && !isset($api_services['er
     foreach ($api_services as $srv) {
         $cat = trim($srv['category'] ?? 'Other Services');
         
-        $clean_desc = preg_replace('/https?:\/\/[^\s]+/', '', $raw_desc);
+        $raw_desc = $srv['desc'] ?? '';
+
+// ১. যেকোনো ওয়েবসাইট লিঙ্ক ও ইউআরএল (http, https, www) সম্পূর্ণ মুছে ফেলা
+$clean_desc = preg_replace('/https?:\/\/[^\s]+/', '', $raw_desc);
 $clean_desc = preg_replace('/www\.[^\s]+/', '', $clean_desc);
+
+// ২. যেকোনো ডোমেইন টেক্সট (যেমন: fampage.in, xyz.com) মুছে ফেলা
 $clean_desc = preg_replace('/[a-zA-Z0-9-]+\.(com|in|net|org|co|site|xyz|store)[^\s]*/i', '', $clean_desc);
+
+// ৩. প্রোভাইডারের প্যানেলের নাম বদলে Bong Boost করা
 $clean_desc = preg_replace('/fampage/i', 'Bong Boost', $clean_desc);
+
+// ৪. যেকোনো টেলিগ্রাম/সোশ্যাল মিডিয়া ইউজারনেম ফিল্টার করা
+$clean_desc = preg_replace('/@[a-zA-Z0-9_]+/', '@BongBoostSupport', $clean_desc);
+        
         
 
         // Calculate 30% Profit
