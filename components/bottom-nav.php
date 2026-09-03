@@ -41,59 +41,93 @@
     <a href="calculator.php">🧮 Calc</a>
     <a href="terms.php">📜 Terms</a>
 </div>
-<!-- Bong Boost Background Music Player Start -->
-<audio id="bgMusic" loop preload="none">
+<audio id="bgMusic" loop preload="auto">
     <source src="https://stream.zeno.fm/f3wvbbqmdg8uv" type="audio/mpeg">
 </audio>
+
+<div id="musicControlWidget" style="position: fixed; bottom: 70px; right: 15px; z-index: 99999; display: flex; align-items: center; gap: 8px; background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(8px); padding: 6px 12px; border-radius: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+    
+    <div id="musicWave" style="display: flex; align-items: flex-end; gap: 2px; height: 14px;">
+        <span class="bar" style="width: 3px; height: 100%; background: #38bdf8; border-radius: 2px;"></span>
+        <span class="bar" style="width: 3px; height: 60%; background: #38bdf8; border-radius: 2px;"></span>
+        <span class="bar" style="width: 3px; height: 80%; background: #38bdf8; border-radius: 2px;"></span>
+    </div>
+
+    <button id="musicToggleBtn" style="background: #0284c7; border: none; color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; outline: none; transition: 0.2s;">
+        <span id="playIcon" style="display: none; font-size: 14px; margin-left: 2px;">▶</span>
+        <span id="pauseIcon" style="display: inline; font-size: 12px;">⏸</span>
+    </button>
+    
+    <span id="musicStatusText" style="color: #f8fafc; font-size: 12px; font-weight: 600; font-family: sans-serif;">Background Music</span>
+</div>
+
+<style>
+    @keyframes pulseWave {
+        0%, 100% { height: 40%; }
+        50% { height: 100%; }
+    }
+    .playing .bar:nth-child(1) { animation: pulseWave 0.8s infinite ease-in-out; }
+    .playing .bar:nth-child(2) { animation: pulseWave 0.6s infinite ease-in-out 0.2s; }
+    .playing .bar:nth-child(3) { animation: pulseWave 0.9s infinite ease-in-out 0.4s; }
+</style>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         var audio = document.getElementById("bgMusic");
+        var btn = document.getElementById("musicToggleBtn");
+        var playIcon = document.getElementById("playIcon");
+        var pauseIcon = document.getElementById("pauseIcon");
+        var wave = document.getElementById("musicWave");
 
-        // থ্রি-লাইন স্লাইডবার বা নেভিগেশন মেনু খুঁজে বের করা
-        var navMenu = document.querySelector(".offcanvas-body") || document.querySelector(".nav-links") || document.querySelector(".menu-items") || document.querySelector("nav ul");
-
-        if (!navMenu) {
-            var firstLink = document.querySelector("a[href*='logout']") || document.querySelector("a[href*='order']");
-            if (firstLink && firstLink.parentElement) {
-                navMenu = firstLink.parentElement.parentElement || firstLink.parentElement;
+        function updateUI(isPlaying) {
+            if (isPlaying) {
+                playIcon.style.display = "none";
+                pauseIcon.style.display = "inline";
+                btn.style.background = "#ef4444"; // পজ করার জন্য লাল বাটন
+                wave.classList.add("playing");
             } else {
-                navMenu = document.body;
+                playIcon.style.display = "inline";
+                pauseIcon.style.display = "none";
+                btn.style.background = "#10b981"; // প্লে করার জন্য সবুজ বাটন
+                wave.classList.remove("playing");
             }
         }
 
-        // মেনু আইটেম বাটন তৈরি
-        var musicMenuItem = document.createElement("div");
-        musicMenuItem.style.cssText = "padding: 12px 20px; cursor: pointer; display: flex; align-items: center; gap: 10px; font-weight: 500; font-size: 15px; color: #fff; transition: 0.3s;";
-        musicMenuItem.id = "musicToggleBtn";
-        musicMenuItem.innerHTML = '🎵 <span>Background Music: <b style="color: #28a745;">OFF</b></span>';
-
-        navMenu.appendChild(musicMenuItem);
-
-        // প্রথম স্ক্রিন ক্লিকে অটো-প্লে
-        function enableAutoplay() {
-            if (audio.paused) {
-                audio.play().then(function() {
-                    musicMenuItem.innerHTML = '🎵 <span>Background Music: <b style="color: #dc3545;">ON</b></span>';
+        // অটো প্লে করার চেষ্টা
+        function tryAutoPlay() {
+            var promise = audio.play();
+            if (promise !== undefined) {
+                promise.then(function() {
+                    updateUI(true);
                 }).catch(function(error) {
-                    console.log("Autoplay blocked");
+                    // ব্রাউজার যদি স্ক্রিন টাচ ছাড়া প্লে ব্লক করে
+                    updateUI(false);
+                    var enableAudioOnTouch = function() {
+                        audio.play().then(function() {
+                            updateUI(true);
+                        });
+                        document.removeEventListener("click", enableAudioOnTouch);
+                        document.removeEventListener("touchstart", enableAudioOnTouch);
+                    };
+                    document.addEventListener("click", enableAudioOnTouch, { once: true });
+                    document.addEventListener("touchstart", enableAudioOnTouch, { once: true });
                 });
             }
-            document.removeEventListener("click", enableAutoplay);
         }
-        document.addEventListener("click", enableAutoplay, { once: true });
 
-        // বাটন টগল হ্যান্ডলার
-        musicMenuItem.addEventListener("click", function (e) {
+        tryAutoPlay();
+
+        // প্লে/পজ বাটনে ক্লিকে ম্যানুয়াল কন্ট্রোল
+        btn.addEventListener("click", function (e) {
             e.stopPropagation();
             if (audio.paused) {
                 audio.play();
-                musicMenuItem.innerHTML = '🎵 <span>Background Music: <b style="color: #dc3545;">ON</b></span>';
+                updateUI(true);
             } else {
                 audio.pause();
-                musicMenuItem.innerHTML = '🎵 <span>Background Music: <b style="color: #28a745;">OFF</b></span>';
+                updateUI(false);
             }
         });
     });
 </script>
-<!-- Bong Boost Background Music Player End -->
+
