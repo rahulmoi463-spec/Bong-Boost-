@@ -51,7 +51,7 @@ if (is_array($api_services) && !empty($api_services) && !isset($api_services['er
     foreach ($api_services as $srv) {
         $cat = trim($srv['category'] ?? 'Other Services');
         
-        $raw_desc = $srv['desc'] ?? '';
+        $raw_desc = $srv['desc'] ?? $srv['description'] ?? '';
 
 // ১. যেকোনো ওয়েবসাইট লিঙ্ক ও ইউআরএল (http, https, www) সম্পূর্ণ মুছে ফেলা
 $clean_desc = preg_replace('/https?:\/\/[^\s]+/', '', $raw_desc);
