@@ -458,6 +458,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
         <a href="orders_history.php" class="drawer-link">
             <i class="fa-solid fa-clock-rotate-left text-primary"></i> Order History
         </a>
+        <a href="payment_history.php" class="drawer-link">
+    <i class="fa-solid fa-receipt text-success"></i> Payment History
+    </a>
+        
         <a href="https://wa.me/917718231993?text=Hello%20Bong%20Boost%20Support" target="_blank" class="drawer-link whatsapp-link" style="color:#25D366;">
             <i class="fa-brands fa-whatsapp fs-5"></i> Customer Support
         </a>
