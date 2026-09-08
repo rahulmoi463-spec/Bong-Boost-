@@ -73,7 +73,9 @@ $services = pg_query($dbconn, "SELECT * FROM services WHERE status = 'active' OR
                 </thead>
                 <tbody>
                     <?php while($row = pg_fetch_assoc($services)): 
-                    $original_price = (float)($row['original_rate'] ?? 0);
+                $base_rate = (float)($row['original_rate'] ?? 0);
+$original_price = $base_rate * 1.30; // ৩০% প্রফিট যোগ করা হলো
+    
     
                         $discounted_price = $user_discount > 0 ? $original_price - ($original_price * ($user_discount / 100)) : $original_price;
                     ?>
