@@ -125,7 +125,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['place_order'])) {
         } elseif ($quantity < $selected_srv['min'] || $quantity > $selected_srv['max']) {
             $order_error = "Quantity must be between {$selected_srv['min']} and {$selected_srv['max']}";
         } else {
-            $total_charge = ($selected_srv['rate'] / 1000) * $quantity;
+            // ডিসকাউন্ট সহ হিসাব
+$user_discount = (int)($user['discount_percent'] ?? 0);
+$original_charge = ($selected_srv['rate'] / 1000) * $quantity;
+
+if ($user_discount > 0) {
+    $total_charge = $original_charge - ($original_charge * ($user_discount / 100));
+} else {
+    $total_charge = $original_charge;
+}
+            
 
             if ($user['balance'] < $total_charge) {
                 $order_error = "Insufficient wallet balance!";
