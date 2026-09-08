@@ -21,6 +21,32 @@ $services = pg_query($dbconn, "SELECT * FROM services WHERE status = 'active' OR
         body { background: #0b0f19; color: #fff; font-family: sans-serif; padding: 20px; }
         .card { background: #151d2a; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }
         .table-dark { background: #151d2a; }
+        /* সার্ভিস টেবিলের লেখা পরিষ্কার ও সাদা করার ফিক্স */
+.table, .table td, .table th {
+    color: #f8fafc !important; /* টেবিলের সব লেখা একদম সাদা দেখাবে */
+    background-color: transparent !important;
+}
+
+.table thead th {
+    color: #38bdf8 !important; /* টেবিলের হেডার নীল রঙে উজ্জ্বল দেখাবে */
+    background-color: #1e293b !important;
+    border-bottom: 2px solid #334155 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+}
+
+/* মোবাইল স্ক্রিনে টেবিল সুন্দরভাবে স্ক্রল হওয়ার জন্য */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+        }
+        
     </style>
 </head>
 <body>
