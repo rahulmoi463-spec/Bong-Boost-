@@ -732,7 +732,7 @@ srvSelect.addEventListener('change', function() {
 
         if (userDiscount > 0) {
             currentRate = baseRate - (baseRate * (userDiscount / 100));
-                        rateSpan.innerHTML = `<span class="text-danger text-decoration-line-through fw-semibold me-2" style="font-size: 0.9em;">${baseRate.toFixed(2)}</span> <span class="text-success fw-bold fs-5 me-1">₹${currentRate.toFixed(2)}</span> <span class="badge bg-danger align-middle ms-1" style="font-size: 0.75em;">${userDiscount}% OFF</span>`;
+                    rateSpan.innerHTML = `<span class="d-inline-flex align-items-center flex-wrap gap-1"><span class="text-danger text-decoration-line-through fw-semibold" style="font-size: 0.85em;">${baseRate.toFixed(2)}</span><span class="text-success fw-bold fs-6"> ${currentRate.toFixed(2)}</span><span class="badge bg-danger ms-1" style="font-size: 0.7em; padding: 3px 6px;">${userDiscount}% OFF</span></span>`;
     
         } else {
             currentRate = baseRate;
