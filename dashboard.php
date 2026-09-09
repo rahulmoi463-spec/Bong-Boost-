@@ -721,13 +721,22 @@ if ($user_discount > 0) {
         searchInput.value = tag;
         searchInput.dispatchEvent(new Event('input'));
     }
+const userDiscount = <?php echo (int)($user['discount_percent'] ?? 0); ?>;
 
     srvSelect.addEventListener('change', function() {
         const opt = this.options[this.selectedIndex];
         if(opt && opt.value) {
             srvNameHidden.value = opt.dataset.name || '';
-            currentRate = parseFloat(opt.dataset.rate) || 0;
-            rateSpan.textContent = currentRate.toFixed(2);
+            let baseRate = parseFloat(opt.dataset.rate) || 0;
+
+if (userDiscount > 0) {
+    currentRate = baseRate - (baseRate * (userDiscount / 100));
+    rateSpan.innerHTML = `<span class="text-decoration-line-through text-danger me-2">₹${baseRate.toFixed(2)}</span> <span class="text-success fw-bold">₹${currentRate.toFixed(2)}</span>`;
+} else {
+    currentRate = baseRate;
+    rateSpan.innerHTML = `₹${currentRate.toFixed(2)}`;
+    }
+    
             minSpan.textContent = opt.dataset.min || 0; 
             maxSpan.textContent = opt.dataset.max || 0;
             srvDetails.classList.remove('d-none'); 
