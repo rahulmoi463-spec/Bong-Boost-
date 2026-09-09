@@ -731,7 +731,8 @@ const userDiscount = <?php echo (int)($user['discount_percent'] ?? 0); ?>;
 
 if (userDiscount > 0) {
     currentRate = baseRate - (baseRate * (userDiscount / 100));
-    rateSpan.innerHTML = `<span class="text-decoration-line-through text-danger me-2">₹${baseRate.toFixed(2)}</span> <span class="text-success fw-bold">₹${currentRate.toFixed(2)}</span>`;
+            rateSpan.innerHTML = `<span class="text-danger text-decoration-line-through fw-semibold me-2" style="font-size: 0.9em;">₹${baseRate.toFixed(2)}</span> <span class="text-success fw-bold fs-5 me-2">₹${currentRate.toFixed(2)}</span> <span class="badge bg-danger align-middle">${userDiscount}% OFF</span>`;
+           
 } else {
     currentRate = baseRate;
     rateSpan.innerHTML = `₹${currentRate.toFixed(2)}`;
