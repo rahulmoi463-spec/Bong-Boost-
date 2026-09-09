@@ -730,15 +730,16 @@ srvSelect.addEventListener('change', function() {
         srvNameHidden.value = opt.dataset.name || '';
         let baseRate = parseFloat(opt.dataset.rate) || 0;
 
-        if (userDiscount > 0) {
+                if (userDiscount > 0) {
             currentRate = baseRate - (baseRate * (userDiscount / 100));
-                rateSpan.innerHTML = `<span class="d-inline-flex align-items-center gap-2 flex-nowrap" style="vertical-align: middle;"><span class="text-danger text-decoration-line-through fw-semibold" style="font-size: 0.85em; opacity: 0.85;">₹${baseRate.toFixed(2)}</span><span class="text-success fw-bold fs-5">₹${currentRate.toFixed(2)}</span><span class="badge bg-danger" style="font-size: 0.65em; padding: 3px 6px;">${userDiscount}% OFF</span></span>`;
+                    rateSpan.innerHTML = `<span class="text-danger text-decoration-line-through fw-semibold me-2" style="font-size: 0.85em;">₹${baseRate.toFixed(2)}</span><span class="text-success fw-bold fs-5 me-1">₹${currentRate.toFixed(2)}</span><span class="badge bg-danger align-middle ms-1" style="font-size: 0.7em;">${userDiscount}% OFF</span>`;
     
         } else {
             currentRate = baseRate;
-            rateSpan.innerHTML = `₹${currentRate.toFixed(2)}`;
-}
-
+            rateSpan.innerHTML = currentRate.toFixed(2);
+    }
+    
+    
             minSpan.textContent = opt.dataset.min || 0; 
             maxSpan.textContent = opt.dataset.max || 0;
             srvDetails.classList.remove('d-none'); 
