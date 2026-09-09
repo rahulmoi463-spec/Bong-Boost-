@@ -735,8 +735,7 @@ srvSelect.addEventListener('change', function() {
                     rateSpan.parentElement.style.display = "inline-flex";
         rateSpan.parentElement.style.alignItems = "center";
         rateSpan.parentElement.style.flexWrap = "nowrap";
-        rateSpan.innerHTML = `<span class="text-danger text-decoration-line-through fw-semibold ms-1 me-2" style="font-size: 0.85em; opacity: 0.85;">${baseRate.toFixed(2)}</span><span class="text-success fw-bold fs-5 me-2">₹${currentRate.toFixed(2)}</span><span class="badge bg-danger align-middle" style="font-size: 0.7em;">${userDiscount}% OFF</span>`;
-    
+                rateSpan.innerHTML = `<span class="text-danger text-decoration-line-through fw-semibold me-2" style="font-size: 0.85em;">${baseRate.toFixed(2)}</span><span class="text-success fw-bold fs-5 me-1">₹${currentRate.toFixed(2)}</span><span class="badge bg-danger align-middle ms-1" style="font-size: 0.7em;">${userDiscount}% OFF</span>`;
     
         } else {
             currentRate = baseRate;
