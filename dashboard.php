@@ -777,17 +777,30 @@ srvSelect.addEventListener('change', function() {
     }
 </script>
     <?php include 'components/bottom-nav.php'; ?>
-<!-- Live Fake Order Toast Notification -->
-<div id="liveOrderToast" class="position-fixed bottom-0 start-0 p-3" style="z-index: 9999; display: none; max-width: 320px;">
-    <div class="card border-0 shadow-lg bg-dark text-white rounded-3 overflow-hidden" style="border-left: 4px solid #0d6efd !important;">
-        <div class="card-body p-2 d-flex align-items-center gap-2">
-            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 36px; height: 36px;">
-                <i class="bi bi-cart-check-fill fs-6"></i>
+<!-- Stylish Verified Live Order Toast -->
+<div id="liveOrderToast" class="position-fixed bottom-0 start-0 p-3" style="z-index: 9999; display: none; max-width: 340px;">
+    <div class="card border-0 shadow-lg text-white rounded-4 overflow-hidden" style="background: rgba(18, 24, 38, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1) !important;">
+        <div class="card-body p-2 px-3 d-flex align-items-center gap-3">
+            <!-- Dynamic Service Image -->
+            <div id="toastImgContainer" class="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 shadow-sm" style="width: 42px; height: 42px; background: rgba(255, 255, 255, 0.08);">
+                <img id="toastIcon" src="" alt="Service Icon" style="width: 24px; height: 24px; object-fit: contain;">
             </div>
-            <div class="lh-1 overflow-hidden">
-                <p class="mb-1 fw-bold text-truncate" style="font-size: 0.85rem;" id="toastUser">Rahul M***</p>
-                <p class="mb-0 text-white-50 text-truncate" style="font-size: 0.75rem;" id="toastService">Purchased 1,000 Instagram Followers</p>
-                <small class="text-primary fw-semibold" style="font-size: 0.65rem;" id="toastTime">Just now</small>
+            
+            <!-- Details -->
+            <div class="lh-sm overflow-hidden me-1">
+                <div class="d-flex align-items-center gap-1 mb-1">
+                    <span class="fw-bold text-white text-truncate" style="font-size: 0.88rem;" id="toastUser">Rahul M.</span>
+                    <!-- Verified Blue Tick -->
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="#0095F6" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#ffffff"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm-1.5 13.5L5.25 11.25l1.41-1.41L10.5 13.67l7.09-7.09 1.41 1.41-8.5 8.5z" fill="#0d6efd"/>
+                    </svg>
+                </div>
+                <p class="mb-1 text-white-50 text-truncate" style="font-size: 0.78rem;" id="toastService">Purchased 1,000 Instagram Followers</p>
+                <div class="d-flex align-items-center gap-2">
+                    <span class="badge bg-success bg-opacity-20 text-success border border-success border-opacity-20 fw-normal" style="font-size: 0.62rem; padding: 2px 6px;">● Order Placed</span>
+                    <small class="text-white-50" style="font-size: 0.65rem;" id="toastTime">Just now</small>
+                </div>
             </div>
         </div>
     </div>
@@ -796,51 +809,67 @@ srvSelect.addEventListener('change', function() {
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const names = ["Rahul M.", "Priya S.", "Ankit K.", "Sneha D.", "Bikram R.", "Suman G.", "Aman P.", "Riya S.", "Deepak K.", "Subham B."];
-    const services = [
-        "1,000 Instagram Followers",
-        "500 Facebook Page Likes",
-        "2,000 YouTube Views",
-        "1,000 Telegram Members",
-        "500 Instagram Reel Likes",
-        "2,000 Instagram Followers"
+    
+    // Service options with matching CDN image icons
+    const servicesData = [
+        {
+            service: "1,000 Instagram Followers",
+            icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png"
+        },
+        {
+            service: "500 Facebook Page Likes",
+            icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png"
+        },
+        {
+            service: "2,000 YouTube Views",
+            icon: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+        },
+        {
+            service: "1,000 Telegram Members",
+            icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+        },
+        {
+            service: "500 Instagram Reel Likes",
+            icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png"
+        }
     ];
+
     const times = ["Just now", "1 min ago", "2 mins ago", "3 mins ago"];
 
     const toast = document.getElementById("liveOrderToast");
     const toastUser = document.getElementById("toastUser");
     const toastService = document.getElementById("toastService");
     const toastTime = document.getElementById("toastTime");
+    const toastIcon = document.getElementById("toastIcon");
 
     function showFakeOrder() {
         const randomName = names[Math.floor(Math.random() * names.length)];
-        const randomService = services[Math.floor(Math.random() * services.length)];
+        const randomServiceObj = servicesData[Math.floor(Math.random() * servicesData.length)];
         const randomTime = times[Math.floor(Math.random() * times.length)];
 
         toastUser.textContent = randomName;
-        toastService.textContent = "Ordered " + randomService;
+        toastService.textContent = randomServiceObj.service;
+        toastIcon.src = randomServiceObj.icon;
         toastTime.textContent = randomTime;
 
         toast.style.display = "block";
-        toast.classList.add("animate__animated", "animate__fadeInUp");
 
         setTimeout(() => {
             toast.style.display = "none";
-        }, 4000); // ৪ সেকেন্ড পর নোটিফিকেশন চলে যাবে
+        }, 4500); // ৪.৫ সেকেন্ড পর গায়েব হয়ে যাবে
     }
 
     function triggerNext() {
-        // ৮ থেকে ১৫ সেকেন্ডের মধ্যে র্যান্ডম সময়ে পপ-আপ আসবে
-        const randomDelay = Math.floor(Math.random() * 7000) + 8000; 
+        const randomDelay = Math.floor(Math.random() * 7000) + 8000; // ৮ থেকে ১৫ সেকেন্ড বিরতি
         setTimeout(() => {
             showFakeOrder();
             triggerNext();
         }, randomDelay);
     }
 
-    // পেজ লোড হওয়ার ৫ সেকেন্ড পর প্রথম নোটিফিকেশন আসবে
-    setTimeout(triggerNext, 5000);
+    setTimeout(triggerNext, 4000);
 });
-</script>    
+</script>
 </body>
 </html>
 
