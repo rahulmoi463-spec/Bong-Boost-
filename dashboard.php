@@ -802,10 +802,10 @@ srvSelect.addEventListener('change', function() {
 }
 </style>
 
-<div id="liveOrderToast" class="position-fixed bottom-0 start-0 p-3" style="z-index: 99999; display: none; max-width: 350px;">
+<div id="liveOrderToast" class="position-fixed bottom-0 start-0 p-3" style="z-index: 99999; display: none; max-width: 360px;">
     <div class="card highlight-toast-card border-0 text-white rounded-4 overflow-hidden">
         <div class="card-body p-2 px-3 d-flex align-items-center gap-3">
-            <!-- Dynamic Service Image with Glow Container -->
+            <!-- Dynamic Service Image -->
             <div id="toastImgContainer" class="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 shadow-lg toast-icon-bounce" style="width: 46px; height: 46px; background: rgba(13, 110, 253, 0.15); border: 1px solid rgba(13, 110, 253, 0.4);">
                 <img id="toastIcon" src="" alt="Service Icon" style="width: 26px; height: 26px; object-fit: contain;">
             </div>
@@ -813,11 +813,11 @@ srvSelect.addEventListener('change', function() {
             <!-- Details -->
             <div class="lh-sm overflow-hidden me-1">
                 <div class="d-flex align-items-center gap-1 mb-1">
-                    <span class="fw-bold text-warning text-truncate" style="font-size: 0.92rem; letter-spacing: 0.3px;" id="toastUser">Rahul M.</span>
+                    <span class="fw-bold text-warning text-truncate" style="font-size: 0.92rem; letter-spacing: 0.3px;" id="toastUser">Rahul Mondal</span>
                     <!-- Verified Blue Tick -->
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#0095F6" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#ffffff"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03-9-9-4.03-9-9-9zm-1.5 13.5L5.25 11.25l1.41-1.41L10.5 13.67l7.09-7.09 1.41 1.41-8.5 8.5z" fill="#0d6efd"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03-9-9-9zm-1.5 13.5L5.25 11.25l1.41-1.41L10.5 13.67l7.09-7.09 1.41 1.41-8.5 8.5z" fill="#0d6efd"/>
                     </svg>
                 </div>
                 <p class="mb-1 text-white fw-semibold text-truncate" style="font-size: 0.8rem;" id="toastService">Purchased 1,000 Instagram Followers</p>
@@ -832,33 +832,58 @@ srvSelect.addEventListener('change', function() {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const names = [
-        "Rahul M.", "Priya S.", "Ankit K.", "Sneha D.", "Bikram R.", "Suman G.", "Aman P.", "Riya S.", 
-        "Deepak K.", "Subham B.", "Amit D.", "Pooja M.", "Rajesh K.", "Tanmoy S.", "Sujay P.", "Neha A.", 
-        "Arpan C.", "Sayani M.", "Rohit V.", "Payal K.", "Sourav D.", "Mimi S.", "Abhishek P.", "Shreya N.", 
-        "Vikram S.", "Swati R.", "Koushik M.", "Rupam G.", "Debjit K.", "Ishita B.", "Tuhin D.", "Monika P.", 
-        "Arijit S.", "Sayantan K.", "Srabanti M.", "Tapas R.", "Bishal P.", "Antara D.", "Prosenjit S.", "Pritam K."
+    // First Names (40)
+    const firstNames = [
+        "Rahul", "Priya", "Ankit", "Sneha", "Bikram", "Suman", "Aman", "Riya", "Deepak", "Subham",
+        "Amit", "Pooja", "Rajesh", "Tanmoy", "Sujay", "Neha", "Arpan", "Sayani", "Rohit", "Payal",
+        "Sourav", "Mimi", "Abhishek", "Shreya", "Vikram", "Swati", "Koushik", "Rupam", "Debjit", "Ishita",
+        "Tuhin", "Monika", "Arijit", "Sayantan", "Srabanti", "Tapas", "Bishal", "Antara", "Prosenjit", "Pritam"
     ];
-    
+
+    // Last Names / Surnames (40)
+    const lastNames = [
+        "Mondal", "Saha", "Kumar", "Das", "Roy", "Ghosh", "Verma", "Sen", "Banerjee", "Dutta",
+        "Mukherjee", "Sarkar", "Pramanik", "Sharma", "Chakraborty", "Mahato", "Karmakar", "Patel", "Nandi", "Singh",
+        "Ganguly", "Biswas", "Dey", "Pal", "Kundu", "Majumdar", "Ray", "Paul", "Mallick", "Samanta",
+        "Koley", "Chatterjee", "Bhattacharya", "Dasgupta", "Barman", "Bag", "Pandey", "Mishra", "Chowdhury", "Adhikary"
+    ];
+
+    // Generator function for 1500+ unique name combinations
+    function getRandomName() {
+        const randomFirst = firstNames[Math.floor(Math.random() * firstNames.length)];
+        const randomLast = lastNames[Math.floor(Math.random() * lastNames.length)];
+        return `${randomFirst} ${randomLast}`;
+    }
+
+    // 20 Unique Social Media Services with Real Icons
     const servicesData = [
         { service: "1,000 Instagram Followers", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
         { service: "2,500 Instagram Followers", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
         { service: "5,000 Instagram Followers", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
-        { service: "500 Instagram Likes", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
-        { service: "2,000 Instagram Likes", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
+        { service: "10,000 Instagram Followers", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
+        { service: "500 Instagram Reel Likes", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
+        { service: "2,000 Instagram Reel Likes", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
         { service: "10,000 Reel Views", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
         { service: "50,000 Reel Views", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
+        { service: "100,000 Reel Views", icon: "https://cdn-icons-png.flaticon.com/512/174/174855.png" },
         { service: "500 Facebook Page Likes", icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png" },
-        { service: "1,000 Facebook Followers", icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png" },
+        { service: "1,000 Facebook Profile Followers", icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png" },
         { service: "5,000 Facebook Post Likes", icon: "https://cdn-icons-png.flaticon.com/512/733/733547.png" },
         { service: "1,000 YouTube Views", icon: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png" },
         { service: "5,000 YouTube Views", icon: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png" },
         { service: "500 YouTube Subscribers", icon: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png" },
-        { service: "1,000 Telegram Members", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" },
-        { service: "5,000 Telegram Members", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" }
+        { service: "1,000 YouTube Watchtime Hours", icon: "https://cdn-icons-png.flaticon.com/512/1384/1384060.png" },
+        { service: "1,000 Telegram Channel Members", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" },
+        { service: "5,000 Telegram Group Members", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" },
+        { service: "2,000 Telegram Post Views", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" },
+        { service: "10,000 Telegram Post Views", icon: "https://cdn-icons-png.flaticon.com/512/2111/2111646.png" }
     ];
 
-    const times = ["Just now", "20 secs ago", "1 min ago", "2 mins ago", "3 mins ago", "5 mins ago"];
+    // Dynamic Time Intervals
+    const times = [
+        "Just now", "15 secs ago", "30 secs ago", "45 secs ago", "1 min ago", 
+        "2 mins ago", "3 mins ago", "4 mins ago", "5 mins ago", "7 mins ago", "10 mins ago"
+    ];
 
     const toast = document.getElementById("liveOrderToast");
     const toastUser = document.getElementById("toastUser");
@@ -867,7 +892,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const toastIcon = document.getElementById("toastIcon");
 
     function showFakeOrder() {
-        const randomName = names[Math.floor(Math.random() * names.length)];
+        const randomName = getRandomName();
         const randomServiceObj = servicesData[Math.floor(Math.random() * servicesData.length)];
         const randomTime = times[Math.floor(Math.random() * times.length)];
 
@@ -880,20 +905,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
         setTimeout(() => {
             toast.style.display = "none";
-        }, 5000); // ৫ সেকেন্ড ধরে হাইলাইট হয়ে ভাসবে
+        }, 5000); // ৫ সেকেন্ড ভেসে থাকবে
     }
 
     function triggerNext() {
-        const randomDelay = Math.floor(Math.random() * 6000) + 7000; // ৭ থেকে ১৩ সেকেন্ড পর পর আসবে
+        // ৬ থেকে ১২ সেকেন্ডের র্যান্ডম বিরতিতে পপ-আপ আসবে
+        const randomDelay = Math.floor(Math.random() * 6000) + 6000; 
         setTimeout(() => {
             showFakeOrder();
             triggerNext();
         }, randomDelay);
     }
 
-    setTimeout(triggerNext, 2500); // পেজ লোড হওয়ার ২.৫ সেকেন্ড পরেই প্রথম পপ-আপ আসবে
+    setTimeout(triggerNext, 2000); // পেজ লোড হওয়ার ২ সেকেন্ড পরে প্রথম অর্ডার দেখাবে
 });
-    </script>
+</script>
 </body>
 </html>
 
