@@ -777,7 +777,70 @@ srvSelect.addEventListener('change', function() {
     }
 </script>
     <?php include 'components/bottom-nav.php'; ?>
-    
+<!-- Live Fake Order Toast Notification -->
+<div id="liveOrderToast" class="position-fixed bottom-0 start-0 p-3" style="z-index: 9999; display: none; max-width: 320px;">
+    <div class="card border-0 shadow-lg bg-dark text-white rounded-3 overflow-hidden" style="border-left: 4px solid #0d6efd !important;">
+        <div class="card-body p-2 d-flex align-items-center gap-2">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style="width: 36px; height: 36px;">
+                <i class="bi bi-cart-check-fill fs-6"></i>
+            </div>
+            <div class="lh-1 overflow-hidden">
+                <p class="mb-1 fw-bold text-truncate" style="font-size: 0.85rem;" id="toastUser">Rahul M***</p>
+                <p class="mb-0 text-white-50 text-truncate" style="font-size: 0.75rem;" id="toastService">Purchased 1,000 Instagram Followers</p>
+                <small class="text-primary fw-semibold" style="font-size: 0.65rem;" id="toastTime">Just now</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const names = ["Rahul M.", "Priya S.", "Ankit K.", "Sneha D.", "Bikram R.", "Suman G.", "Aman P.", "Riya S.", "Deepak K.", "Subham B."];
+    const services = [
+        "1,000 Instagram Followers",
+        "500 Facebook Page Likes",
+        "2,000 YouTube Views",
+        "1,000 Telegram Members",
+        "500 Instagram Reel Likes",
+        "2,000 Instagram Followers"
+    ];
+    const times = ["Just now", "1 min ago", "2 mins ago", "3 mins ago"];
+
+    const toast = document.getElementById("liveOrderToast");
+    const toastUser = document.getElementById("toastUser");
+    const toastService = document.getElementById("toastService");
+    const toastTime = document.getElementById("toastTime");
+
+    function showFakeOrder() {
+        const randomName = names[Math.floor(Math.random() * names.length)];
+        const randomService = services[Math.floor(Math.random() * services.length)];
+        const randomTime = times[Math.floor(Math.random() * times.length)];
+
+        toastUser.textContent = randomName;
+        toastService.textContent = "Ordered " + randomService;
+        toastTime.textContent = randomTime;
+
+        toast.style.display = "block";
+        toast.classList.add("animate__animated", "animate__fadeInUp");
+
+        setTimeout(() => {
+            toast.style.display = "none";
+        }, 4000); // ৪ সেকেন্ড পর নোটিফিকেশন চলে যাবে
+    }
+
+    function triggerNext() {
+        // ৮ থেকে ১৫ সেকেন্ডের মধ্যে র্যান্ডম সময়ে পপ-আপ আসবে
+        const randomDelay = Math.floor(Math.random() * 7000) + 8000; 
+        setTimeout(() => {
+            showFakeOrder();
+            triggerNext();
+        }, randomDelay);
+    }
+
+    // পেজ লোড হওয়ার ৫ সেকেন্ড পর প্রথম নোটিফিকেশন আসবে
+    setTimeout(triggerNext, 5000);
+});
+</script>    
 </body>
 </html>
 
