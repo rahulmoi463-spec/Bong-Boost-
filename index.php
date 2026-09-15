@@ -279,7 +279,7 @@ if (isset($_SESSION['user_id'])) {
         <!-- Tutorial Video Box -->
 <div class="container text-center my-4" style="position: relative; z-index: 2;">
     <div class="video-box-card">
-        <h4 class="video-title">🎥 (Full Tutorial)</h4>
+        <h4 class="video-title">🎥 প্যানেল কিভাবে ব্যবহার করবেন দেখুন (Full Tutorial)</h4>
         <div class="ratio ratio-16x9 video-container">
             <iframe src="https://www.youtube.com/embed/0gq8C40Wn20" title="Bong Boost Tutorial" allowfullscreen></iframe>
             
