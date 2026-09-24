@@ -583,7 +583,7 @@ if ($user_discount > 0) {
 
                     <div class="mb-3">
                         <label class="form-label"><i class="fa-solid fa-link me-1"></i> Target Link (URL)</label>
-                        <input type="url" name="link" class="form-control" placeholder="https://instagram.com/username..." required>
+                        <input type="url" name="link" class="form-control" placeholder="Paste correct target link (Profile / Post / Video URL)"required>
                     </div>
 
                     <div class="mb-3">
