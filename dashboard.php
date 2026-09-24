@@ -68,9 +68,10 @@ $clean_desc = preg_replace('/@[a-zA-Z0-9_]+/', '@BongBoostSupport', $clean_desc)
         
         
 
-        // Calculate 30% Profit
-        $original_rate = (float)($srv['rate'] ?? 0);
-        $profit_rate = $original_rate * 1.30;
+    // Calculate 12% Profit
+$original_rate = (float)($srv['rate'] ?? 0);
+$profit_rate = $original_rate * 1.12;
+        
 
         $services_by_cat[$cat][] = [
             'id' => (string)($srv['service'] ?? ''),
